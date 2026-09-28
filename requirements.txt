@@ -1,0 +1,5 @@
+django
+redis
+gunicorn
+nginx
+celery

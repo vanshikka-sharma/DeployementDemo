@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deployment Demo</title>
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+</head>
+
+<body>
+
+    <h1>Django Deployment Demo</h1>
+
+    <p>Django + Celery + Redis + Static Files</p>
+
+    <a href="{% url 'run_task' %}">
+        <button>Run Celery Task</button>
+    </a>
+
+</body>
+</html>

@@ -124,3 +124,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CELERY_BROKER_URL = "redis://localhost:6379/0"
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
